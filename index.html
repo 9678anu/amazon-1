@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Customer Support Helpline</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        .amazon-orange {
+            background-color: #FF9900;
+        }
+        .amazon-blue {
+            background-color: #146EB4;
+        }
+        .amazon-dark {
+            background-color: #131A22;
+        }
+        .call-button {
+            transition: all 0.3s ease;
+        }
+        .call-button:hover {
+            transform: scale(1.05);
+            background-color: #e68a00;
+        }
+        .fixed-call-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #FF9900;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        .fixed-call-button:hover {
+            background-color: #e68a00;
+            transform: scale(1.1);
+        }
+        .call-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        .security-call-button:hover {
+            background-color: #f5f5f5;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="amazon-dark text-white py-6">
+        <div class="container mx-auto px-6 flex flex-col items-center">
+            <img src="https://www.amazon.com/favicon.ico" alt="Amazon Logo" class="h-16 mb-6 bg-white p-2 rounded-md">
+            <div class="text-center">
+                <h1 class="text-3xl md:text-4xl font-extrabold">Amazon Customer Support Helpline</h1>
+                <p class="mt-3 text-base md:text-lg">Available 24/7 to Assist You Anytime, Anywhere</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-10">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-white to-gray-100 rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-5">Need Assistance?</h2>
+            <p class="text-gray-700 mb-4">Our dedicated Amazon Customer Support team is here round-the-clock to assist with orders, account management, Prime membership queries, returns, payments, or technical issues. Whether you're tracking a package or resolving a billing concern, we’ve got you covered.</p>
+            <p class="text-gray-700 mb-4">New to Amazon? Explore our comprehensive <a href="#" class="text-blue-600 hover:underline">Help Center</a> for step-by-step guides, video tutorials, and detailed FAQs to shop with ease and confidence.</p>
+            <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-3 px-6 rounded-lg call-button">
+                <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                </svg>
+                Call Amazon Helpline Support
+            </a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Shop Smart, Shop Safe</h3>
+                <p class="text-gray-600 mb-4">Add your payment method securely once, and enjoy seamless transactions across Amazon’s platform. Our advanced encryption ensures your financial details are never shared with third-party sellers, keeping your shopping experience safe and worry-free.</p>
+                <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-2 px-5 rounded-lg call-button">
+                    <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                    </svg>
+                    Call Customer helpdesk Service
+                </a>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Hassle-Free Returns</h3>
+                <p class="text-gray-600 mb-4">Received the wrong item or a damaged package? Our streamlined return process makes it effortless. Contact our team for personalized guidance to ensure every order meets your expectations, with quick refunds or replacements.</p>
+                <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-2 px-5 rounded-lg call-button">
+                    <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                    </svg>
+                    Call Help Desk amazon support
+                </a>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">24/7 Account Security</h3>
+                <p class="text-gray-600 mb-4">Your account safety is our top priority. Amazon’s dedicated security team monitors for fraud, phishing attempts, and unauthorized access, taking immediate action to protect your personal information and ensure peace of mind.</p>
+                <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-2 px-5 rounded-lg call-button">
+                    <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                    </svg>
+                    Call Customer Helpdesk support
+                </a>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Robust Data Protection</h3>
+                <p class="text-gray-600 mb-4">Every interaction with Amazon is safeguarded by TLS 1.2+ encryption. Our websites and mobile apps undergo rigorous security testing to ensure your personal and payment data remains protected at all times.</p>
+                <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-2 px-5 rounded-lg call-button">
+                    <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                    </svg>
+                    Call Helpline support
+                </a>
+            </div>
+            <!-- Card 5 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Why Amazon is Trusted</h3>
+                <p class="text-gray-600 mb-4">Amazon sets the standard for e-commerce safety with innovative technology, proactive fraud prevention, and a customer-centric approach. We continuously improve our systems to earn and maintain your trust every day.</p>
+                <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-2 px-5 rounded-lg call-button">
+                    <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                    </svg>
+                    Call  Customer Support
+                </a>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+        <section class="bg-gradient-to-r from-white to-gray-100 rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5">Disclaimer</h2>
+            <p class="text-gray-700 mb-4">Shop New AVS operates as an independent retailer, offering genuine computer peripherals and software sourced directly from authorized distributors. We adhere strictly to FTC regulations to ensure secure and transparent transactions for all customers.</p>
+            <p class="text-gray-700 mb-4">Note: Shop New AVS is not affiliated with Amazon or its services, including Prime, Kindle, or Alexa. Some of our products may be available on Amazon’s platforms for your convenience.</p>
+            <p class="text-gray-700 mb-4">Our policies are aligned with Amazon’s standards. For more information, please review our <a href="#" class="text-blue-600 hover:underline">Buying and Refund Policies</a>.</p>
+            <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-3 px-6 rounded-lg call-button">
+                <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                </svg>
+                Call Helpline Support
+            </a>
+        </section>
+
+        <!-- Advanced Security Technology Section -->
+        <section class="amazon-orange rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-5">Advanced Security Technology</h2>
+            <p class="text-gray-900 mb-4">Amazon leverages cutting-edge fraud prevention with real-time analytics and machine learning to detect and block cyber threats. Shop confidently knowing our systems are designed to keep your transactions secure.</p>
+            <a href="tel:+1-833-534-1986" class="inline-block bg-white text-gray-900 font-semibold py-3 px-6 rounded-lg security-call-button">
+                <svg class="call-icon" fill="#131A22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                </svg>
+                Call Helpline Amazon Support
+            </a>
+        </section>
+
+        <!-- Important Notice -->
+        <section class="bg-gradient-to-r from-white to-gray-100 rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5">Important Notice</h2>
+            <p class="text-gray-700 mb-4">Before using our services, we recommend reviewing our <a href="#" class="text-blue-600 hover:underline">Terms & Conditions</a> and <a href="#" class="text-blue-600 hover:underline">Privacy Policy</a> to understand your rights and our commitment to your security.</p>
+            <p class="text-gray-700 mb-4">Have questions? Our customer care team is ready to assist. Visit our <a href="#" class="text-blue-600 hover:underline">Help Center</a> or contact us directly for personalized support.</p>
+            <a href="tel:+1-833-534-1986" class="inline-block amazon-orange text-white font-semibold py-3 px-6 rounded-lg call-button">
+                <svg class="call-icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+                </svg>
+                Call Amazon Customer Support Helpline
+            </a>
+        </section>
+    </main>
+
+    <!-- Fixed Circular Call Button (Icon Only) -->
+    <a href="tel:+1-833-534-1986" class="fixed-call-button">
+        <svg class="w-6 h-6 fill-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.23.37-.57.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.75 0 .99-.65.99-1.19v-3.42c0-.54-.45-.99-.99-.99z"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="amazon-dark text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-sm">© 2025 Amazon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
